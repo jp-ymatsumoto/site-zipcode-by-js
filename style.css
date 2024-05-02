@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* objectの上にあるボタンのクリックイベントを発火させる */
+object {
+  pointer-events: none;
+}
+
+body {
+  height: 100vh;
+}
+
+.container {
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+#zipcode {
+  flex-grow: 1;
+  padding: 2px 16px;
+}
+
+/* 横幅 */
+.w-240 {
+  width: 240px;
+}
+.w-320 {
+  width: 320px;
+}
+.w-full {
+  width: 100%;
+}
+
+/* フレックスボックス */
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+.flex-between {
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-start {
+  justify-content: flex-start;
+  align-items: center;
+}
+/* グリッドレイアウト */
+/* .grid {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+} */
+
+/* フレックスボックやグリッドレイアウトの空白 */
+.gap-sm {
+  gap: 10px;
+}
+.gap-md {
+  gap: 20px;
+}
+.gap-lg {
+  gap: 30px;
+}
+
+/* テキストサイズ */
+.text {
+  font-size: 20px;
+}
+.error {
+  color: red;
+}
+
+/* ボタン */
+button {
+  background: #50b894;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+button:hover {
+  background: #38a06f;
+}
